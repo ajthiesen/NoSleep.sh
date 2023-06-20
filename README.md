@@ -10,7 +10,7 @@ To use the script, follow these steps:
 
 1.  Open a terminal on your Linux system.
 2.  `cd` to your preferred directory.
-3.  Download the NpSleep.sh scipt via `curl` : `curl -O https://github.com/andrewthiesen/NoSleep.sh/blob/main/NoSleep.sh`
+3.  Download the NoSleep.sh scipt via `curl` : `curl -O https://github.com/andrewthiesen/NoSleep.sh/blob/main/NoSleep.sh`
 4.  Make the NoSleep script executable by running the command `chmod +x NoSleep.sh`.
 5.  Execute the script as root using the command `sudo ./NoSleep.sh`.
 8.  The script will update the `HandleLidSwitch` option in the `logind.conf` file to `ignore`.
@@ -23,9 +23,6 @@ To use the script, follow these steps:
 * Modifying system configuration files can have unintended consequences. Please review the changes made by the script and ensure they align with your requirements.
 * It's recommended to take appropriate precautions, such as backing up the original configuration file, before executing the script.
 * Rebooting the system is optional but can ensure that the changes take effect immediately. You will be prompted to reboot after executing the script.
-
-#### Via Curl
-curl -O https://github.com/andrewthiesen/NoSleep.sh/blob/main/NoSleep.sh
 
 ---
 
