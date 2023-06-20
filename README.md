@@ -9,11 +9,10 @@ This bash script is designed to edit the `/etc/systemd/logind.conf` configuratio
 To use the script, follow these steps:
 
 1.  Open a terminal on your Linux system.
-2.  Download the scipt via `curl` : `curl -O https://github.com/andrewthiesen/NoSleep.sh/blob/main/NoSleep.sh` **OR**
-3.  via `wget`: `wget https://github.com/andrewthiesen/NoSleep.sh/blob/main/NoSleep.sh`
-4.  Save the provided script into a file, for example, `edit_logind_conf.sh`
-5.  Make the script executable by running the command `chmod +x edit_logind_conf.sh`.
-7.  Execute the script as root using the command `sudo ./edit_logind_conf.sh`.
+2.  `cd` to your preferred directory.
+3.  Download the NpSleep.sh scipt via `curl` : `curl -O https://github.com/andrewthiesen/NoSleep.sh/blob/main/NoSleep.sh`
+4.  Make the NoSleep script executable by running the command `chmod +x NoSleep.sh`.
+5.  Execute the script as root using the command `sudo ./NoSleep.sh`.
 8.  The script will update the `HandleLidSwitch` option in the `logind.conf` file to `ignore`.
 9.  Optionally, you will be prompted to reboot the system for the changes to take effect immediately.
 
