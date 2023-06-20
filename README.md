@@ -1,3 +1,5 @@
+# NoSleep.sh
+
 ## Bash Script to Edit `/etc/systemd/logind.conf`
 
 This bash script is designed to edit the `/etc/systemd/logind.conf` configuration file on a Rocky Linux Server or Workstation. Specifically, it modifies the `HandleLidSwitch` option and sets it to `ignore`. This configuration change is commonly used to prevent the system from suspending or performing any action when the laptop lid is closed.
@@ -15,7 +17,7 @@ To use the script, follow these steps:
 
 ### Important Notes
 
-* This script must be run as root or with superuser privileges to modify system files.
+* This script **must** be run as root or with superuser privileges to modify system files.
 * It assumes that the `logind.conf` file is located at `/etc/systemd/logind.conf`. If your system uses a different location, please modify the script accordingly.
 * Modifying system configuration files can have unintended consequences. Please review the changes made by the script and ensure they align with your requirements.
 * It's recommended to take appropriate precautions, such as backing up the original configuration file, before executing the script.
