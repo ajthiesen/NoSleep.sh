@@ -9,11 +9,13 @@ This bash script is designed to edit the `/etc/systemd/logind.conf` configuratio
 To use the script, follow these steps:
 
 1.  Open a terminal on your Linux system.
-2.  Save the provided script into a file, for example, `edit_logind_conf.sh`.
-3.  Make the script executable by running the command `chmod +x edit_logind_conf.sh`.
-4.  Execute the script as root using the command `sudo ./edit_logind_conf.sh`.
-5.  The script will update the `HandleLidSwitch` option in the `logind.conf` file to `ignore`.
-6.  Optionally, you will be prompted to reboot the system for the changes to take effect immediately.
+2.  Download the scipt via `curl` : `curl -O https://github.com/andrewthiesen/NoSleep.sh/blob/main/NoSleep.sh` **OR**
+3.  via `wget`: `wget https://github.com/andrewthiesen/NoSleep.sh/blob/main/NoSleep.sh`
+4.  Save the provided script into a file, for example, `edit_logind_conf.sh`
+5.  Make the script executable by running the command `chmod +x edit_logind_conf.sh`.
+7.  Execute the script as root using the command `sudo ./edit_logind_conf.sh`.
+8.  The script will update the `HandleLidSwitch` option in the `logind.conf` file to `ignore`.
+9.  Optionally, you will be prompted to reboot the system for the changes to take effect immediately.
 
 ### Important Notes
 
@@ -22,6 +24,9 @@ To use the script, follow these steps:
 * Modifying system configuration files can have unintended consequences. Please review the changes made by the script and ensure they align with your requirements.
 * It's recommended to take appropriate precautions, such as backing up the original configuration file, before executing the script.
 * Rebooting the system is optional but can ensure that the changes take effect immediately. You will be prompted to reboot after executing the script.
+
+#### Via Curl
+curl -O https://github.com/andrewthiesen/NoSleep.sh/blob/main/NoSleep.sh
 
 ---
 
