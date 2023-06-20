@@ -1,3 +1,7 @@
+# Andrew Thiesen
+# 20 JUNE 2023
+# Tested on Rockly Linux 9.2
+
 #!/bin/bash
 
 # Check if the script is being run as root
